@@ -15,6 +15,7 @@
 - Button 
 - Required (obrigar usuário, a preencher um determinado campo).
 - Formspree (usada pra enviar formulário).
+- Textarea (Campo de texto)
 
 ### Plataformas usada para auxiliar
 - Kenzi Academy
