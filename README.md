@@ -14,3 +14,4 @@
 ### Plataformas usada para auxiliar ###
 - Kenzie Academy
 - Cursos CDN
+- https://www.w3schools.com/html/default.asp
