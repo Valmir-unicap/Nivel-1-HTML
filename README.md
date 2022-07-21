@@ -17,6 +17,7 @@
 - Formspree (usada pra enviar formulário).
 - Textarea (Campo de texto)
 - Lista ordenada "ol" + "li"
+- Lista ordem decrescente "reversed"
 
 ### Plataformas usada para auxiliar
 - Kenzie Academy
