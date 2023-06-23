@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <title>Rede VJ</title>
+        <!--Fonte para titulo / Usei Google Fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner&display=swap" rel="stylesheet"> 
+    </head>
+    <!--Titulo-->
+    <h1 style="font-family: 'Edu QLD Beginner', cursive;"><em>Tech Prodigy</em></h1>
+    <br>
+    <h2 style="font-family: 'Edu QLD Beginner', cursive;">Formulário de pedidos</h2>
+    <div><strong>Faça agora seu pedido, é fácil e rápido.</strong></div>
+    <br>
+    <!--Formulário / Feito com Formspree-->   
+    <form action="https://formspree.io/f/mayvroja" method="POST">
+        <p>
+            <!--Campo de nome-->
+            <label><b>- Digite seu nome completo</b></label>
+            <input placeholder="Digite aqui..." type="text" required="required" name="nome">
+        <br></p>
+        <p>
+            <!-- Anexo do modelo -->
+            <label><b>- Anexe a foto do modelo desejado</b></label>
+            <input type="file" required="required" name="anexo">
+        <br></p>
+        <p>
+            <!--Campo de Estado-->
+            <label><b>- Digite seu estado</b></label>
+            <input placeholder="Digite aqui..." type="text" required="required" name="estado">
+        <br></p>
+        <p>
+            <!--Campo de cidade-->
+            <label><b>- Digite sua cidade</b></label>
+            <input placeholder="Digite aqui..." type="text" required="required" name="cidade">
+        <br></p>
+        <p>
+            <!--Campo de bairro-->
+            <label><b>- Digite seu bairro</b></label>
+            <input placeholder="Digite aqui..." type="text" required="required" name="bairro">
+        <br></p>
+        <p>
+            <!--Campo de CEP-->
+            <label><b>- Digite seu CEP</b></label>
+            <input placeholder="Digite aqui..." type="number" required="required" name="CEP">
+        <br></p>
+        <p>
+            <!-- Campo de complemento de seu endereço-->
+            <label><b>- Digite o número da sua casa</b></label>
+            <input placeholder="Digite aqui..." type="number" name="endereço">
+        <br></p>
+        <p>
+            <!-- Tamanho do calçado-->
+            <label><b>- Escolha seu tamanho do seu calçado</b></label>
+            <input type="number" required="required" value="cor do calçado" name="tamanho">
+        </p>
+        <p>
+            <!--Unidades-->
+            <label><b>- Digite quantas unidades você deseja</b></label>
+            <input placeholder="Escolha aqui..." required="required" type="number" name="unidades">
+        <br></p>
+        <!--Campo da camisa-->
+        <p><label><b>- Escolha a cor do seu calçado</b></label>
+            <select>
+                <option>Azul</option>
+                <option>Preto</option>
+                <option>Vermelho</option>
+                <option>Branco</option>
+                <option>Cinza</option>
+                <option>Rosa</option>
+            </select>
+        </p>
+        <p>
+            <!--Campo de data-->
+            <label><b>- Digite sua data de nascimento</b></label>       
+            <input type="date" required="required" name="nascimento">
+        <br></p>
+        <p>
+            <!--Campo de email-->
+            <label><b>- Digite seu email</b></label>
+            <input placeholder="Digite aqui..." type="email" required="required" name="email">
+        </p>
+        <!--Sexo-->
+        <p><label><b>- Escolha seu genêro</b></label></p>
+        <ul>
+            <li><input type="radio" required="required" value="Masculino" name="status">Masculino</li>
+            <li><input type="radio" required="required" value="Feminino" name="status">Feminino</li>
+            <li><input type="radio" required="required" value="LGBTQIA+" name="status">LGBTQIA+</li>
+            <li><input type="radio" required="required" value="Prefiro não declarar" name="status">Prefiro não declarar</li>
+        </ul>
+        <!--Campo de mensagem-->
+        <label><b>- Campo abaixo para observação</b></label><br>
+        <textarea placeholder="Digite aqui.." rows="10" cols="60"></textarea>
+        <!--Pagamento-->
+        <p><label><b>- Page nessa chave PIX: 40028922</b></label></p>
+        <p><label><b>- Anexe aqui, o comprovante de pagamento</b></label>
+        <input type="file" required="required" value="pagamento" name="comprovante de pagamento">
+        <br></p>
+        <!--Campo de TermosCompromisso-->
+        <p><input type="checkbox" required="required" value="SIM" name="TermosContrato">Aceitar termos de compromisso</p>
+        <button type="submit" required="required">Enviar</button>
+    </form>
+</html>
